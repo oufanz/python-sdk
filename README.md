@@ -86,7 +86,7 @@ for item in checkout.line_items:
 | `ucp_sdk.models.schemas.common.types`   | Shared primitives (amounts, prices, totals, postal address, etc.) |
 | `ucp_sdk.models.schemas.shopping`       | Checkout, cart, catalog, order, buyer consent, permalink models   |
 | `ucp_sdk.models.schemas.shopping.types` | Line items, adjustments, fulfillments, destinations, attribution  |
-| `ucp_sdk.models.schemas.transports`     | REST, MCP, and embedded protocol bindings                         |
+| `ucp_sdk.models.schemas.transports`     | A2A, JSON-RPC, MCP, and embedded protocol bindings                |
 | `ucp_sdk.models.schemas`                | Service definitions, capabilities, profile, payment handlers      |
 
 ### Validation
